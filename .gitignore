@@ -13,3 +13,6 @@
 *.a
 
 *.wav
+*.mp3
+
+/resources
