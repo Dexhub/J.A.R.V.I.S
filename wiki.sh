@@ -2,17 +2,42 @@
 
 Query=$(dig +short txt $1.wp.dg.cx \
 | sed -r 's/ +/+/g' \
-| sed -r 's/,//g' \
+| sed -r 's/[,#()@\:"]//g' \
 | sed -r 's/\.[^ ]*/ /g' \
 | sed -r 's/ +//g' )
 
+
 echo "$Query\"" 
-#| sed 's/\.[a-z.]*//g')
 
 
 wget -q -U Mozilla -O output.mp3 "http://translate.google.com/translate_tts?ie=UTF-8&tl=en&q=$Query\""
 echo "HI"
 play output.mp3
+
+
+
+
+
+
+
+
+
+
+
+<<COMMENT
+
+| sed -r 's/\.[a-z.]*//g'\
+| sed -r 's/ +/+/g' \
+| sed -r 's/ +//g' \
+| sed -r 's/[@#\$%^&*().:]//g') 
+#| sed -r 's/\.[^ ]*/ /g' \
+
+#Query=$(dig +short txt $1.wp.dg.cx \
+#| sed -r 's/ +/+/g;
+#s/,//g;
+#s/\.[^ ]*/ /g;
+#s/ +//g' )
+
 
 
 
@@ -23,4 +48,5 @@ play output.mp3
 #dig +short txt $1.wp.dg.cx | festival --tts &
 #festival query.tmp &
 #rm -r query.tmp
+COMMENT
 
