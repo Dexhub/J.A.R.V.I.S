@@ -1,0 +1,38 @@
+
+Starting Nmap 6.00 ( http://nmap.org ) at 2013-07-05 18:47 EDT
+Nmap scan report for Wireless_Broadband_Router.home (192.168.1.1)
+Host is up (0.0014s latency).
+MAC Address: 00:26:B8:9A:F9:DF (Actiontec Electronics)
+
+Nmap scan report for new-host.home (192.168.1.2) ## UNIDENTIFIED DEVICE new host verismo networks
+Host is up (0.0038s latency).
+MAC Address: 00:22:9C:02:08:B7 (Verismo Networks)
+
+Nmap scan report for Home.home (192.168.1.6) ## Might be the Home Computer- greater possibility
+Host is up (0.043s latency).
+MAC Address: 4C:EB:42:28:76:B1 (Intel Corporate)
+
+Nmap scan report for Android_357814047092260.home (192.168.1.8) ## Seems like HTC ONE X PLUS
+Host is up (0.044s latency).
+MAC Address: D8:B3:77:78:DF:EA (HTC) 
+
+Nmap scan report for R9R1T48.home (192.168.1.10) ## McGladrey
+Host is up (0.044s latency).
+MAC Address: 8C:70:5A:D7:F2:3C (Intel Corporate)
+
+Nmap scan report for A0006268.home (192.168.1.12) ## IPhone 4
+Host is up (0.031s latency).
+MAC Address: 18:20:32:DF:AF:1F (Apple)
+
+Nmap scan report for dexter-HP-Pavilion-dv6-Notebook-PC.home (192.168.1.14) ## My PC
+Host is up.
+
+Nmap scan report for IP-STB1.home (192.168.1.100) ## UNIDENTIFIED DEVICE -- MIGHT BE THE TV ATTACHED DEVICES - BUT THEY OUGHT TO BE WIRED CONNECTIONS INSTEAD
+Host is up (0.011s latency).
+MAC Address: 00:21:1E:97:BF:E6 (Motorola Mobility)
+
+Nmap scan report for IP-STB2.home (192.168.1.101)
+Host is up (0.0060s latency).
+MAC Address: 00:24:A0:51:80:DB (Motorola Mobility)
+
+Nmap done: 256 IP addresses (9 hosts up) scanned in 3.41 seconds
