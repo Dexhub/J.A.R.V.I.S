@@ -14,5 +14,5 @@
 
 *.wav
 *.mp3
-
+%.fuse_
 /resources
